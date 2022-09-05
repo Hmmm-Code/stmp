@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* .App {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  column-gap: 50px;
+} */
+
+.sidebar {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+
+  width: 20rem
+}
+.sidebar-design{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  background-color: gainsboro;
+  height: 97%;  
+  color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 0 1px 1px gainsboro;
+}
+.siebar-button{ 
+ 
+  display: flex;
+  width: 95%;
+  margin: 1rem;
+  height: 5rem;
+  background-color: rgb(233, 232, 243);
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  box-shadow: 0 0 1px 1px rgb(233, 232, 243);
+  
+}
+.sidebar-button-link {
+  text-transform: uppercase !important
+}
+.siebar-button:hover{
+  font-size: 20px;
+  background-color: rgba(26, 25, 37, 0.678);
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none !important;
+}
+.btn {
+  margin-right: 1rem;
+}
+.update {
+ position: absolute;
+ right: 40%;
+}
+
+.navbar {
+  background-color: #e3f2fd;
+}
+.fa.fa-edit {
+  color: #18a2b9;
+}
+
+.list-group-item.delete:hover {
+  cursor: -webkit-grab;
+  background-color: pink;
+}
+
+.project {
+  position: absolute;
+width: 800px;
+right: 20%;
+}
+.align-left {
+  margin-left: 25rem;
+  margin-top: 2rem ;
+}
+
+.list-group-item.update:hover {
+  cursor: -webkit-grab;
+  background-color: gainsboro;
+}
+
+.list-group-item.board:hover {
+  cursor: -webkit-grab;
+  background-color: gainsboro;
+}
+
+.fa.fa-minus-circle {
+  color: red;
+}
+
+.landing {
+  position: relative;
+  /* background: url("../img/showcase.jpg") no-repeat; */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
